@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "elevation-pr": "^2.1.0",
     "fontawesome": "^5.6.3",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
@@ -13,7 +14,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "review": "node node_modules/elevation-pr/index.js"
   },
   "eslintConfig": {
     "extends": "react-app"
